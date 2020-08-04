@@ -5,9 +5,15 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ master, 'origin/product', 'origin/richModel' ]
+    branches: 
+    - master
+    - 'origin/product'
+    - 'origin/richModel'
   pull_request:
-    branches: [ master, 'origin/product', 'origin/richModel' ]
+    branches: 
+    - master
+    - 'origin/product'
+    - 'origin/richModel'
 
 jobs:
   build:
