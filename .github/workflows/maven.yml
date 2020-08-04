@@ -7,13 +7,13 @@ on:
   push:
     branches: 
     - master
-    - 'origin/product'
-    - 'origin/richModel'
+    - product
+    - richModel
   pull_request:
     branches: 
     - master
-    - 'origin/product'
-    - 'origin/richModel'
+    - product
+    - richModel
 
 jobs:
   build:
